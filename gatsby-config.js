@@ -1,8 +1,5 @@
 module.exports = {
   plugins: [
-    `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -45,5 +42,9 @@ module.exports = {
         display: `swap`,
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
+    `babel-plugin-styled-components`,
   ],
 }
